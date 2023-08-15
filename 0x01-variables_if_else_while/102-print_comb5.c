@@ -6,11 +6,15 @@
 */
 int main(void)
 {
+/*
+ * warning: this code is rubbish....my head's really messed up rn
+ * I'll re-write it later
+*/
 int c, d, e, f, i = 0, k = 0;
 for (c = 48; c < 58; c++, i++)
 {
 d = 48 + i;
-for( ; d < 58; d++)
+for ( ; d < 58; d++)
 {
 for (e = 48; e < 58; e++, k++)
 {
