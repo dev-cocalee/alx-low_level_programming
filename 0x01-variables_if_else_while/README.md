@@ -1,4 +1,4 @@
-Second C project
+Second C project in Low-Level-Programming
 
 Contents:
 1: Variables in C
