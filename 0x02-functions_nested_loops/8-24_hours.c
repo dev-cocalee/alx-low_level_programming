@@ -2,27 +2,16 @@
 
 /**
  * jack_bauer - Entry function
- * Return: Always 0.
  */
 void jack_bauer(void)
 {
-int i = 0, j = 0, a = 0, b = 0;
-while (i < 3)
+int a = 0, b, c, d ;
+for ( ; a < 3; a++)
 {
-while (j < 5)
+for (b = 0; b < 4; b++)
 {
-while (a < 6)
+for (c = 0 ; c < 6; c++)
 {
-while (b < 10)
-{
-_putchar(i + 48), _putchar(j + 48), _putchar(32), _putchar(58),
-_putchar(32), _putchar(a + 48), _putchar(b + 48), _putchar('\n');
-b++;
-}
-a++;
-}
-j++;
-}
-i++;
-}
-}
+for  (d = 0; d < 10; d++)
+_putchar(a + 48), _putchar(b + 48), _putchar(58), _putchar(c + 48),
+_putchar(d + 48), _putchar('\n');}}}}
