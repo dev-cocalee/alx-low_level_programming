@@ -23,16 +23,3 @@ for ( ; i >= 0; i--)
 _putchar(s[i]);
 _putchar(10);
 }
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char *str;
-
-    str = NULL;
-    print_rev(str);
-    return (0);
-}
