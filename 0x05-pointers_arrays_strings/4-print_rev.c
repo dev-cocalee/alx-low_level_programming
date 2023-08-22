@@ -12,7 +12,7 @@ char *err_msg = "(null)";
 if (s == NULL)
 {
 while (err_msg[i])
-_putchar(err_msg[i]), i++;
+write(2, &err_msg[i], 1), i++;
 _putchar(10);
 return;
 }
