@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints all the arguments it receives
- * @argc: argument counter
- * @argv: argument vector.....yadayadayada
+ * @argc: size of argv
+ * @argv: array of size argc
  * Return: argv(s)
 */
 int main(int argc, char **argv)

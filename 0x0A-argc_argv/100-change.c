@@ -1,11 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "main.h"
 /**
  * main - calculates the minimal number of coins required to make change
  * for an amount of money.
- * @argc: argument count.
- * @argv: arguments array of size argc
+ * @argc: size of argv
+ * @argv: array of size argcrgc
  * Return: 0 upon success.
 */
 int main(int argc, char **argv)
