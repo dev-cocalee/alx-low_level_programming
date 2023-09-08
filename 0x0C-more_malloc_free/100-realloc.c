@@ -1,5 +1,19 @@
 #include "main.h"
 
+/**
+ * _min - returns the smaller of two numbers
+ * @a: first arg
+ * @b: second arg
+ * Return: smaller of a and b
+*/
+int _min(ssize_t a, ssize_t b)
+{
+if (a < b)
+return (a);
+else
+return (b);
+}
+
 
 /**
 * _realloc - reallocates a memory block
@@ -29,7 +43,7 @@ else
 new_block = malloc(new_size);
 if (new_block != NULL)
 {
-for (i = 0; i < min(old_size, new_size); i++)
+for (i = 0; i < _min(old_size, new_size); i++)
 *((char *)new_block + i) = *((char *) ptr + i);
 free(ptr);
 return (new_block); }
