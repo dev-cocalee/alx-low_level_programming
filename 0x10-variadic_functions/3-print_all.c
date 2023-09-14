@@ -14,6 +14,9 @@ size_t i = 0;
 char *d;
 va_list ments;
 
+if (format == NULL)
+return;
+
 va_start(ments, format);
 
 while (format[i] && format)
@@ -33,10 +36,4 @@ i++;
 
 printf("\n");
 va_end(ments);
-}
-
-int main(void)
-{
-print_all(NULL);
-return (0);
 }
