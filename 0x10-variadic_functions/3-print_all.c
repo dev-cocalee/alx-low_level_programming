@@ -23,7 +23,7 @@ while (format[i] && format)
 {
 (format[i] == 'c') ? printf("%c", va_arg(ments, int))
 : (format[i] == 'i') ? printf("%d", va_arg(ments, int))
-: (format[i] == 'f') ? printf("%f", va_arg(ments, double))
+: (format[i] == 'f') ? printf("%g", va_arg(ments, double))
 : (format[i] == 's') ? (d = va_arg(ments, char *),
 (d == NULL) ? printf("(nil)") : printf("%s", d))
 : 0;
