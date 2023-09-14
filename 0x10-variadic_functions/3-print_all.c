@@ -11,6 +11,12 @@ char *d;
 va_list ments;
 va_start(ments, format);
 
+if (format == NULL)
+{
+printf("\n");
+return;
+}
+
 while (format[i] && format)
 {
 switch (format[i])
