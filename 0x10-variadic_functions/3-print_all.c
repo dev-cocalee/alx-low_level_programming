@@ -11,6 +11,9 @@ char *d;
 va_list arg;
 va_start(arg, format);
 
+if (format == NULL)
+return;
+
 while (format[i] && format)
 {
 switch (format[i])
