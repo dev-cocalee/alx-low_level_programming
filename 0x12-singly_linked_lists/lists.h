@@ -6,12 +6,10 @@
 #include <stdio.h>
 
 /**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
+ * struct list_s - a singly linked list's structure
+ * @str: data in the list
+ * @len: length of str
+ * @next: next node's pointer....I mean duhh, it's a linked list
  */
 typedef struct list_s
 {
